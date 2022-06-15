@@ -1,0 +1,72 @@
+C:\Users\cirof\OneDrive\Área de Trabalho\RUMO Academy\3-TRABALHO EM SALA\ImportacaoClientes-main\ImportacaoClientes\bin\Debug\net5.0\ImportacaoClientes.exe
+C:\Users\cirof\OneDrive\Área de Trabalho\RUMO Academy\3-TRABALHO EM SALA\ImportacaoClientes-main\ImportacaoClientes\bin\Debug\net5.0\ImportacaoClientes.deps.json
+C:\Users\cirof\OneDrive\Área de Trabalho\RUMO Academy\3-TRABALHO EM SALA\ImportacaoClientes-main\ImportacaoClientes\bin\Debug\net5.0\ImportacaoClientes.runtimeconfig.json
+C:\Users\cirof\OneDrive\Área de Trabalho\RUMO Academy\3-TRABALHO EM SALA\ImportacaoClientes-main\ImportacaoClientes\bin\Debug\net5.0\ImportacaoClientes.runtimeconfig.dev.json
+C:\Users\cirof\OneDrive\Área de Trabalho\RUMO Academy\3-TRABALHO EM SALA\ImportacaoClientes-main\ImportacaoClientes\bin\Debug\net5.0\ImportacaoClientes.dll
+C:\Users\cirof\OneDrive\Área de Trabalho\RUMO Academy\3-TRABALHO EM SALA\ImportacaoClientes-main\ImportacaoClientes\bin\Debug\net5.0\ref\ImportacaoClientes.dll
+C:\Users\cirof\OneDrive\Área de Trabalho\RUMO Academy\3-TRABALHO EM SALA\ImportacaoClientes-main\ImportacaoClientes\bin\Debug\net5.0\ImportacaoClientes.pdb
+C:\Users\cirof\OneDrive\Área de Trabalho\RUMO Academy\3-TRABALHO EM SALA\ImportacaoClientes-main\ImportacaoClientes\bin\Debug\net5.0\System.Data.SqlClient.dll
+C:\Users\cirof\OneDrive\Área de Trabalho\RUMO Academy\3-TRABALHO EM SALA\ImportacaoClientes-main\ImportacaoClientes\bin\Debug\net5.0\runtimes\win-arm64\native\sni.dll
+C:\Users\cirof\OneDrive\Área de Trabalho\RUMO Academy\3-TRABALHO EM SALA\ImportacaoClientes-main\ImportacaoClientes\bin\Debug\net5.0\runtimes\win-x64\native\sni.dll
+C:\Users\cirof\OneDrive\Área de Trabalho\RUMO Academy\3-TRABALHO EM SALA\ImportacaoClientes-main\ImportacaoClientes\bin\Debug\net5.0\runtimes\win-x86\native\sni.dll
+C:\Users\cirof\OneDrive\Área de Trabalho\RUMO Academy\3-TRABALHO EM SALA\ImportacaoClientes-main\ImportacaoClientes\bin\Debug\net5.0\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\cirof\OneDrive\Área de Trabalho\RUMO Academy\3-TRABALHO EM SALA\ImportacaoClientes-main\ImportacaoClientes\bin\Debug\net5.0\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\cirof\OneDrive\Área de Trabalho\RUMO Academy\3-TRABALHO EM SALA\ImportacaoClientes-main\ImportacaoClientes\obj\Debug\net5.0\ImportacaoClientes.csproj.AssemblyReference.cache
+C:\Users\cirof\OneDrive\Área de Trabalho\RUMO Academy\3-TRABALHO EM SALA\ImportacaoClientes-main\ImportacaoClientes\obj\Debug\net5.0\ImportacaoClientes.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\cirof\OneDrive\Área de Trabalho\RUMO Academy\3-TRABALHO EM SALA\ImportacaoClientes-main\ImportacaoClientes\obj\Debug\net5.0\ImportacaoClientes.AssemblyInfoInputs.cache
+C:\Users\cirof\OneDrive\Área de Trabalho\RUMO Academy\3-TRABALHO EM SALA\ImportacaoClientes-main\ImportacaoClientes\obj\Debug\net5.0\ImportacaoClientes.AssemblyInfo.cs
+C:\Users\cirof\OneDrive\Área de Trabalho\RUMO Academy\3-TRABALHO EM SALA\ImportacaoClientes-main\ImportacaoClientes\obj\Debug\net5.0\ImportacaoClientes.csproj.CoreCompileInputs.cache
+C:\Users\cirof\OneDrive\Área de Trabalho\RUMO Academy\3-TRABALHO EM SALA\ImportacaoClientes-main\ImportacaoClientes\obj\Debug\net5.0\ImportacaoClientes.csproj.CopyComplete
+C:\Users\cirof\OneDrive\Área de Trabalho\RUMO Academy\3-TRABALHO EM SALA\ImportacaoClientes-main\ImportacaoClientes\obj\Debug\net5.0\ImportacaoClientes.dll
+C:\Users\cirof\OneDrive\Área de Trabalho\RUMO Academy\3-TRABALHO EM SALA\ImportacaoClientes-main\ImportacaoClientes\obj\Debug\net5.0\ref\ImportacaoClientes.dll
+C:\Users\cirof\OneDrive\Área de Trabalho\RUMO Academy\3-TRABALHO EM SALA\ImportacaoClientes-main\ImportacaoClientes\obj\Debug\net5.0\ImportacaoClientes.pdb
+C:\Users\cirof\OneDrive\Área de Trabalho\RUMO Academy\3-TRABALHO EM SALA\ImportacaoClientes-main\ImportacaoClientes\obj\Debug\net5.0\ImportacaoClientes.genruntimeconfig.cache
+C:\Users\cirof\OneDrive\Área de Trabalho\RUMO Academy\3-TRABALHO EM SALA\ImportacaoClientes-main\ImportacaoClientes\bin\Debug\net5.0\Conexoes\SqlServer.cs
+C:\Users\cirof\Desktop\RUMO Academy\RUMO Solucoes - Tabela Clientes\ImportacaoClientes-main\ImportacaoClientes\bin\Debug\net5.0\ImportacaoClientes.exe
+C:\Users\cirof\Desktop\RUMO Academy\RUMO Solucoes - Tabela Clientes\ImportacaoClientes-main\ImportacaoClientes\bin\Debug\net5.0\Conexoes\SqlServer.cs
+C:\Users\cirof\Desktop\RUMO Academy\RUMO Solucoes - Tabela Clientes\ImportacaoClientes-main\ImportacaoClientes\bin\Debug\net5.0\ImportacaoClientes.deps.json
+C:\Users\cirof\Desktop\RUMO Academy\RUMO Solucoes - Tabela Clientes\ImportacaoClientes-main\ImportacaoClientes\bin\Debug\net5.0\ImportacaoClientes.runtimeconfig.json
+C:\Users\cirof\Desktop\RUMO Academy\RUMO Solucoes - Tabela Clientes\ImportacaoClientes-main\ImportacaoClientes\bin\Debug\net5.0\ImportacaoClientes.runtimeconfig.dev.json
+C:\Users\cirof\Desktop\RUMO Academy\RUMO Solucoes - Tabela Clientes\ImportacaoClientes-main\ImportacaoClientes\bin\Debug\net5.0\ImportacaoClientes.dll
+C:\Users\cirof\Desktop\RUMO Academy\RUMO Solucoes - Tabela Clientes\ImportacaoClientes-main\ImportacaoClientes\bin\Debug\net5.0\ref\ImportacaoClientes.dll
+C:\Users\cirof\Desktop\RUMO Academy\RUMO Solucoes - Tabela Clientes\ImportacaoClientes-main\ImportacaoClientes\bin\Debug\net5.0\ImportacaoClientes.pdb
+C:\Users\cirof\Desktop\RUMO Academy\RUMO Solucoes - Tabela Clientes\ImportacaoClientes-main\ImportacaoClientes\bin\Debug\net5.0\System.Data.SqlClient.dll
+C:\Users\cirof\Desktop\RUMO Academy\RUMO Solucoes - Tabela Clientes\ImportacaoClientes-main\ImportacaoClientes\bin\Debug\net5.0\runtimes\win-arm64\native\sni.dll
+C:\Users\cirof\Desktop\RUMO Academy\RUMO Solucoes - Tabela Clientes\ImportacaoClientes-main\ImportacaoClientes\bin\Debug\net5.0\runtimes\win-x64\native\sni.dll
+C:\Users\cirof\Desktop\RUMO Academy\RUMO Solucoes - Tabela Clientes\ImportacaoClientes-main\ImportacaoClientes\bin\Debug\net5.0\runtimes\win-x86\native\sni.dll
+C:\Users\cirof\Desktop\RUMO Academy\RUMO Solucoes - Tabela Clientes\ImportacaoClientes-main\ImportacaoClientes\bin\Debug\net5.0\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\cirof\Desktop\RUMO Academy\RUMO Solucoes - Tabela Clientes\ImportacaoClientes-main\ImportacaoClientes\bin\Debug\net5.0\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\cirof\Desktop\RUMO Academy\RUMO Solucoes - Tabela Clientes\ImportacaoClientes-main\ImportacaoClientes\obj\Debug\net5.0\ImportacaoClientes.csproj.AssemblyReference.cache
+C:\Users\cirof\Desktop\RUMO Academy\RUMO Solucoes - Tabela Clientes\ImportacaoClientes-main\ImportacaoClientes\obj\Debug\net5.0\ImportacaoClientes.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\cirof\Desktop\RUMO Academy\RUMO Solucoes - Tabela Clientes\ImportacaoClientes-main\ImportacaoClientes\obj\Debug\net5.0\ImportacaoClientes.AssemblyInfoInputs.cache
+C:\Users\cirof\Desktop\RUMO Academy\RUMO Solucoes - Tabela Clientes\ImportacaoClientes-main\ImportacaoClientes\obj\Debug\net5.0\ImportacaoClientes.AssemblyInfo.cs
+C:\Users\cirof\Desktop\RUMO Academy\RUMO Solucoes - Tabela Clientes\ImportacaoClientes-main\ImportacaoClientes\obj\Debug\net5.0\ImportacaoClientes.csproj.CoreCompileInputs.cache
+C:\Users\cirof\Desktop\RUMO Academy\RUMO Solucoes - Tabela Clientes\ImportacaoClientes-main\ImportacaoClientes\obj\Debug\net5.0\ImportacaoClientes.csproj.CopyComplete
+C:\Users\cirof\Desktop\RUMO Academy\RUMO Solucoes - Tabela Clientes\ImportacaoClientes-main\ImportacaoClientes\obj\Debug\net5.0\ImportacaoClientes.dll
+C:\Users\cirof\Desktop\RUMO Academy\RUMO Solucoes - Tabela Clientes\ImportacaoClientes-main\ImportacaoClientes\obj\Debug\net5.0\ref\ImportacaoClientes.dll
+C:\Users\cirof\Desktop\RUMO Academy\RUMO Solucoes - Tabela Clientes\ImportacaoClientes-main\ImportacaoClientes\obj\Debug\net5.0\ImportacaoClientes.pdb
+C:\Users\cirof\Desktop\RUMO Academy\RUMO Solucoes - Tabela Clientes\ImportacaoClientes-main\ImportacaoClientes\obj\Debug\net5.0\ImportacaoClientes.genruntimeconfig.cache
+C:\Users\cirof\Desktop\RUMO Academy\ImportacaoTabela Clientes\ImportacaoClientes-main\ImportacaoClientes\bin\Debug\net5.0\ImportacaoClientes.exe
+C:\Users\cirof\Desktop\RUMO Academy\ImportacaoTabela Clientes\ImportacaoClientes-main\ImportacaoClientes\bin\Debug\net5.0\Conexoes\SqlServer.cs
+C:\Users\cirof\Desktop\RUMO Academy\ImportacaoTabela Clientes\ImportacaoClientes-main\ImportacaoClientes\bin\Debug\net5.0\ImportacaoClientes.deps.json
+C:\Users\cirof\Desktop\RUMO Academy\ImportacaoTabela Clientes\ImportacaoClientes-main\ImportacaoClientes\bin\Debug\net5.0\ImportacaoClientes.runtimeconfig.json
+C:\Users\cirof\Desktop\RUMO Academy\ImportacaoTabela Clientes\ImportacaoClientes-main\ImportacaoClientes\bin\Debug\net5.0\ImportacaoClientes.runtimeconfig.dev.json
+C:\Users\cirof\Desktop\RUMO Academy\ImportacaoTabela Clientes\ImportacaoClientes-main\ImportacaoClientes\bin\Debug\net5.0\ImportacaoClientes.dll
+C:\Users\cirof\Desktop\RUMO Academy\ImportacaoTabela Clientes\ImportacaoClientes-main\ImportacaoClientes\bin\Debug\net5.0\ref\ImportacaoClientes.dll
+C:\Users\cirof\Desktop\RUMO Academy\ImportacaoTabela Clientes\ImportacaoClientes-main\ImportacaoClientes\bin\Debug\net5.0\ImportacaoClientes.pdb
+C:\Users\cirof\Desktop\RUMO Academy\ImportacaoTabela Clientes\ImportacaoClientes-main\ImportacaoClientes\bin\Debug\net5.0\System.Data.SqlClient.dll
+C:\Users\cirof\Desktop\RUMO Academy\ImportacaoTabela Clientes\ImportacaoClientes-main\ImportacaoClientes\bin\Debug\net5.0\runtimes\win-arm64\native\sni.dll
+C:\Users\cirof\Desktop\RUMO Academy\ImportacaoTabela Clientes\ImportacaoClientes-main\ImportacaoClientes\bin\Debug\net5.0\runtimes\win-x64\native\sni.dll
+C:\Users\cirof\Desktop\RUMO Academy\ImportacaoTabela Clientes\ImportacaoClientes-main\ImportacaoClientes\bin\Debug\net5.0\runtimes\win-x86\native\sni.dll
+C:\Users\cirof\Desktop\RUMO Academy\ImportacaoTabela Clientes\ImportacaoClientes-main\ImportacaoClientes\bin\Debug\net5.0\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\cirof\Desktop\RUMO Academy\ImportacaoTabela Clientes\ImportacaoClientes-main\ImportacaoClientes\bin\Debug\net5.0\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\cirof\Desktop\RUMO Academy\ImportacaoTabela Clientes\ImportacaoClientes-main\ImportacaoClientes\obj\Debug\net5.0\ImportacaoClientes.csproj.AssemblyReference.cache
+C:\Users\cirof\Desktop\RUMO Academy\ImportacaoTabela Clientes\ImportacaoClientes-main\ImportacaoClientes\obj\Debug\net5.0\ImportacaoClientes.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\cirof\Desktop\RUMO Academy\ImportacaoTabela Clientes\ImportacaoClientes-main\ImportacaoClientes\obj\Debug\net5.0\ImportacaoClientes.AssemblyInfoInputs.cache
+C:\Users\cirof\Desktop\RUMO Academy\ImportacaoTabela Clientes\ImportacaoClientes-main\ImportacaoClientes\obj\Debug\net5.0\ImportacaoClientes.AssemblyInfo.cs
+C:\Users\cirof\Desktop\RUMO Academy\ImportacaoTabela Clientes\ImportacaoClientes-main\ImportacaoClientes\obj\Debug\net5.0\ImportacaoClientes.csproj.CoreCompileInputs.cache
+C:\Users\cirof\Desktop\RUMO Academy\ImportacaoTabela Clientes\ImportacaoClientes-main\ImportacaoClientes\obj\Debug\net5.0\ImportacaoClientes.csproj.CopyComplete
+C:\Users\cirof\Desktop\RUMO Academy\ImportacaoTabela Clientes\ImportacaoClientes-main\ImportacaoClientes\obj\Debug\net5.0\ImportacaoClientes.dll
+C:\Users\cirof\Desktop\RUMO Academy\ImportacaoTabela Clientes\ImportacaoClientes-main\ImportacaoClientes\obj\Debug\net5.0\ref\ImportacaoClientes.dll
+C:\Users\cirof\Desktop\RUMO Academy\ImportacaoTabela Clientes\ImportacaoClientes-main\ImportacaoClientes\obj\Debug\net5.0\ImportacaoClientes.pdb
+C:\Users\cirof\Desktop\RUMO Academy\ImportacaoTabela Clientes\ImportacaoClientes-main\ImportacaoClientes\obj\Debug\net5.0\ImportacaoClientes.genruntimeconfig.cache

@@ -1,0 +1,8 @@
+{
+  "runtimeOptions": {
+    "additionalProbingPaths": [
+      "C:\\Users\\cirof\\.dotnet\\store\\|arch|\\|tfm|",
+      "C:\\Users\\cirof\\.nuget\\packages"
+    ]
+  }
+}

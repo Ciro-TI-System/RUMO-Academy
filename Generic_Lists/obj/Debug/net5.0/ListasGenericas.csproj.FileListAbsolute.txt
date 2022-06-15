@@ -1,0 +1,16 @@
+C:\Users\cirof\Desktop\RUMO Academy\Listas Genericas\ListasGenericas\bin\Debug\net5.0\ListasGenericas.exe
+C:\Users\cirof\Desktop\RUMO Academy\Listas Genericas\ListasGenericas\bin\Debug\net5.0\ListasGenericas.deps.json
+C:\Users\cirof\Desktop\RUMO Academy\Listas Genericas\ListasGenericas\bin\Debug\net5.0\ListasGenericas.runtimeconfig.json
+C:\Users\cirof\Desktop\RUMO Academy\Listas Genericas\ListasGenericas\bin\Debug\net5.0\ListasGenericas.runtimeconfig.dev.json
+C:\Users\cirof\Desktop\RUMO Academy\Listas Genericas\ListasGenericas\bin\Debug\net5.0\ListasGenericas.dll
+C:\Users\cirof\Desktop\RUMO Academy\Listas Genericas\ListasGenericas\bin\Debug\net5.0\ref\ListasGenericas.dll
+C:\Users\cirof\Desktop\RUMO Academy\Listas Genericas\ListasGenericas\bin\Debug\net5.0\ListasGenericas.pdb
+C:\Users\cirof\Desktop\RUMO Academy\Listas Genericas\ListasGenericas\obj\Debug\net5.0\ListasGenericas.csproj.AssemblyReference.cache
+C:\Users\cirof\Desktop\RUMO Academy\Listas Genericas\ListasGenericas\obj\Debug\net5.0\ListasGenericas.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\cirof\Desktop\RUMO Academy\Listas Genericas\ListasGenericas\obj\Debug\net5.0\ListasGenericas.AssemblyInfoInputs.cache
+C:\Users\cirof\Desktop\RUMO Academy\Listas Genericas\ListasGenericas\obj\Debug\net5.0\ListasGenericas.AssemblyInfo.cs
+C:\Users\cirof\Desktop\RUMO Academy\Listas Genericas\ListasGenericas\obj\Debug\net5.0\ListasGenericas.csproj.CoreCompileInputs.cache
+C:\Users\cirof\Desktop\RUMO Academy\Listas Genericas\ListasGenericas\obj\Debug\net5.0\ListasGenericas.dll
+C:\Users\cirof\Desktop\RUMO Academy\Listas Genericas\ListasGenericas\obj\Debug\net5.0\ref\ListasGenericas.dll
+C:\Users\cirof\Desktop\RUMO Academy\Listas Genericas\ListasGenericas\obj\Debug\net5.0\ListasGenericas.pdb
+C:\Users\cirof\Desktop\RUMO Academy\Listas Genericas\ListasGenericas\obj\Debug\net5.0\ListasGenericas.genruntimeconfig.cache

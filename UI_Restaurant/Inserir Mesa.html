@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Selecionar Mesa</title>
+
+</head>
+
+<body>
+
+    <input type="text" id="quantidadeCadeiras" \>
+    <input type="text" id="quantidadeCadeiras" \>
+    <button onclick="PesquisarMesa()">Pesquisar Mesa</button>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"
+        integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+
+
+    <script>
+        function InserirMesa() {
+            var objRequisicao = CriarObjetoInserirMesa();
+            var jsonRequisicao = JSON.stringify(objRequisicao)
+            $.ajax({
+                method: "POST",
+                url: "https://es03.aiur.com.br/v1/InserirMesa",
+                data:jsonRequisicao,
+                contentType:"application/json"
+            }).done(function (resultado) {
+                console.log(resultado);
+            }).fail(function (erro1, erro2, erro3) {
+                console.log(erro1);
+                console.log(erro2);
+                console.log(erro3);
+            });
+        }
+    </script>
+    
+    </body>
+    
+    </html>

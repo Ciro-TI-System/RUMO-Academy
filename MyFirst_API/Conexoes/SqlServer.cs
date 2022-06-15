@@ -1,0 +1,318 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Data.SqlClient;
+using System.IO;
+
+namespace MinhaPrimeiraApi.Conexoes
+{
+    public class SqlServer
+    {
+        private readonly SqlConnection _conexao;
+
+        public SqlServer()
+        {
+            string stringConexao = File.ReadAllText("C:\\HYPER-V\\StringConexao_aluno.txt");
+            _conexao = new SqlConnection(stringConexao);
+        }
+
+        public void InserirCliente(Entidades.Cliente cliente)
+        {
+            try
+            {
+                // abre a conexao
+                _conexao.Open();
+
+                // apenas a query de insert
+                string query = @"INSERT INTO Cliente
+                                       (Nome
+                                       ,Cpf
+                                       ,Idade
+                                       ,Genero
+                                       ,Nacionalidade)
+                                 VALUES
+                                       (@Nome
+                                       ,@Cpf
+                                       ,@Idade
+                                       ,@Genero
+                                       ,@Nacionalidade);";
+
+                // recebe a conexao para preparar instrucoes a serem enviadas para a base
+                using (var cmd = new SqlCommand(query, _conexao))
+                {
+                    // adiciona o parametro e valor mapeado na query acima
+                    cmd.Parameters.AddWithValue("@Nacionalidade", cliente.Nacionalidade);
+                    cmd.Parameters.AddWithValue("@Idade", cliente.Idade);
+                    cmd.Parameters.AddWithValue("@Nome", cliente.Nome);
+                    cmd.Parameters.AddWithValue("@Cpf", cliente.Cpf);
+                    cmd.Parameters.AddWithValue("@Genero", cliente.Sexo);
+
+                    // envia o insert para o banco de dados
+                    cmd.ExecuteNonQuery();
+                }
+            }
+            finally
+            {
+                // fecha a conexao
+                _conexao.Close();
+            }
+        }
+        public void AtualizarCliente(Entidades.Cliente cliente)
+        {
+            try
+            {
+                _conexao.Open();
+
+                string query = @"UPDATE Cliente
+                                   SET Nome = @Nome
+                                      ,Genero = @Genero
+                                      ,Nacionalidade = @Nacionalidade
+                                      ,Idade = @Idade
+                                 WHERE Cpf = @Cpf";
+
+                using (var cmd = new SqlCommand(query, _conexao))
+                {
+                    cmd.Parameters.AddWithValue("@Nacionalidade", cliente.Nacionalidade);
+                    cmd.Parameters.AddWithValue("@Nome", cliente.Nome);
+                    cmd.Parameters.AddWithValue("@Cpf", cliente.Cpf);
+                    cmd.Parameters.AddWithValue("@Idade", cliente.Idade);
+                    cmd.Parameters.AddWithValue("@Genero", cliente.Sexo);
+
+                    cmd.ExecuteNonQuery();
+
+                }
+            }
+            finally
+            {
+                _conexao.Close();
+            }
+        }
+        public bool VerificarExistenciaCliente(string cpf)
+        {
+            try
+            {
+                _conexao.Open();
+
+                string query = @"select Count(Cpf) AS total 
+                                 from Cliente WHERE Cpf = @Cpf;";
+
+                using (var cmd = new SqlCommand(query, _conexao))
+                {
+                    cmd.Parameters.AddWithValue("@Cpf", cpf);
+
+                    return Convert.ToBoolean(cmd.ExecuteScalar());
+                }
+            }
+            finally
+            {
+                _conexao.Close();
+            }
+        }
+        public void DeletarCliente(Entidades.Cliente cliente)
+        {
+            try
+            {
+                _conexao.Open();
+
+                string query = @"DELETE FROM Cliente
+                                 WHERE Cpf = @Cpf";
+
+                using (var cmd = new SqlCommand(query, _conexao))
+                {
+                    cmd.Parameters.AddWithValue("@Cpf", cliente.Cpf);
+                    cmd.ExecuteNonQuery();
+
+                }
+            }
+            finally
+            {
+                _conexao.Close();
+            }
+        }
+        public Entidades.Cliente SelecionarCliente(string cpf)
+        {
+            try
+            {
+                _conexao.Open();
+
+                string query = @"Select * FROM Cliente
+                                 WHERE Cpf = @Cpf";
+
+                using (var cmd = new SqlCommand(query, _conexao))
+                {
+                    cmd.Parameters.AddWithValue("@Cpf", cpf);
+                    var rdr = cmd.ExecuteReader();
+
+                    if (rdr.Read())
+                    {
+                        var cliente = new Entidades.Cliente();
+                        cliente.Cpf = cpf;
+                        cliente.Nome = rdr["Nome"].ToString();
+                        cliente.Nacionalidade = rdr["Nacionalidade"].ToString();
+                        cliente.Idade = Convert.ToInt16(rdr["Idade"]);
+                        cliente.Sexo = rdr["Genero"].ToString();
+
+                        return cliente;
+                    }
+                    else
+                    {
+                        throw new InvalidOperationException("Cpf " + cpf + " não encontrado!");
+                    }
+                }
+            }
+            finally
+            {
+                _conexao.Close();
+            }
+        }
+        public List<Entidades.Cliente> ListarClientes()
+        {
+            var clientes = new List<Entidades.Cliente>();
+            try
+            {
+                _conexao.Open();
+
+                string query = @"Select * FROM Cliente";
+
+                using (var cmd = new SqlCommand(query, _conexao))
+                {
+                    var rdr = cmd.ExecuteReader();
+
+                    while (rdr.Read())
+                    {
+                        var cliente = new Entidades.Cliente();
+                        cliente.Cpf = rdr["Cpf"].ToString();
+                        cliente.Nome = rdr["Nome"].ToString();
+                        cliente.Nacionalidade = rdr["Nacionalidade"].ToString();
+                        cliente.Idade = Convert.ToInt16(rdr["Idade"]);
+                        cliente.Sexo = rdr["Genero"].ToString();
+
+                        clientes.Add(cliente);
+                    }
+                }
+            }
+            finally
+            {
+                _conexao.Close();
+            }
+
+            return clientes;
+        }
+
+        public List<Entidades.Mesa> ListarMesas()
+        {
+            var mesas = new List<Entidades.Mesa>();
+            try
+            {
+                _conexao.Open();
+
+                string query = @"Select Identificador, 
+                                        QuantidadeCadeiras 
+                                FROM Mesa";
+
+                using (var cmd = new SqlCommand(query, _conexao))
+                {
+                    var rdr = cmd.ExecuteReader();
+
+                    while (rdr.Read())
+                    {
+                        var mesa = new Entidades.Mesa();
+                        mesa.Identificador = Convert.ToInt32(rdr["Identificador"]);
+                        mesa.QuantidadeCadeiras = Convert.ToInt16(rdr["QuantidadeCadeiras"]);
+
+                        mesas.Add(mesa);
+                    }
+                }
+            }
+            finally
+            {
+                _conexao.Close();
+            }
+
+            return mesas;
+        }
+        public List<Entidades.Reserva> ListarReservas()
+        {
+            var reservas = new List<Entidades.Reserva>();
+            try
+            {
+                _conexao.Open();
+
+                string query = @"SELECT
+	                                Identificador,
+	                                InicioReserva,
+	                                FimReserva,
+	                                Mesa
+                                FROM ReservaMesa";
+
+                using (var cmd = new SqlCommand(query, _conexao))
+                {
+                    var rdr = cmd.ExecuteReader();
+
+                    while (rdr.Read())
+                    {
+                        var reserva = new Entidades.Reserva();
+                        reserva.Identificador = Convert.ToInt32(rdr["Identificador"]);
+                        reserva.InicioReserva = Convert.ToDateTime(rdr["InicioReserva"]);
+                        reserva.FimReserva = Convert.ToDateTime(rdr["FimReserva"]);
+                        reserva.Mesa = new Entidades.Mesa()
+                        {
+                            Identificador = Convert.ToInt32(rdr["Mesa"])
+                        };
+
+                        reservas.Add(reserva);
+                    }
+                }
+            }
+            finally
+            {
+                _conexao.Close();
+            }
+
+            return reservas;
+        }
+
+        public List<Entidades.Mesa> ConsultarDisponibilidadeMesas(int qtdeCadeiras, DateTime dataInicio, DateTime dataFim)
+        {
+            var mesas = new List<Entidades.Mesa>();
+            try
+            {
+                _conexao.Open();
+
+                string query = @"SELECT m.Identificador FROM Mesa m
+                                --condicao que compara o identificador que nao contem na lista retornada da sub query
+                                WHERE m.Identificador NOT IN
+                                --subquery que retorna somente uma lista de identificador com base na pesquisa dentro de parenteses
+                                (SELECT m.Identificador AS IdentificadorMesa FROM Mesa m
+                                JOIN ReservaMesa rm ON m.Identificador = rm.Mesa
+                                WHERE rm.InicioReserva
+                                BETWEEN @dataInicio AND @dataFim
+                                AND rm.FimReserva 
+                                BETWEEN @dataInicio AND @dataFim)
+                                --ja estando fora da subquery, filtramos a quantidade de cadeiras
+                                AND m.QuantidadeCadeiras = @qtdeCadeiras";
+
+                using (var cmd = new SqlCommand(query, _conexao))
+                {
+                    cmd.Parameters.AddWithValue("dataInicio", dataInicio);
+                    cmd.Parameters.AddWithValue("dataFim", dataFim);
+                    cmd.Parameters.AddWithValue("qtdeCadeiras", qtdeCadeiras);
+
+                    var rdr = cmd.ExecuteReader();
+
+                    while (rdr.Read())
+                    {
+                        var mesa = new Entidades.Mesa();
+                        mesa.Identificador = Convert.ToInt32(rdr["Identificador"]);
+                        mesas.Add(mesa);
+                    }
+                }
+            }
+            finally
+            {
+                _conexao.Close();
+            }
+
+            return mesas;
+        }
+    }
+}
